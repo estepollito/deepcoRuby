@@ -7,6 +7,8 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href='https://fonts.googleapis.com/css?family=lato'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -62,7 +64,7 @@
           <hr class="clearfix w-100 d-md-none pb-3">
 
           <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3 col-sm-6 col-xsm-6 border-left">
+          <div class="col-md-3 mb-md-0 mb-3 col-sm-12 col-xsm-6 border-left">
 
               <!-- Links -->
               <!-- <h5 class="text-uppercase">Links</h5> -->
@@ -74,24 +76,12 @@
                 <li>
                   <%= link_to "Servicios", main_services_path %>
                 </li>
-              </ul>
-
-          </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3 col-sm-6 col-xm-6 no-margin">
-
-              <!-- Links -->
-              <!-- <h5 class="text-uppercase">Links</h5> -->
-
-              <ul class="list-unstyled">
                 <li>
                   <%= link_to "Quienes somos", main_aboutUs_path %>
                 </li>
               </ul>
 
-            </div>
+          </div>
             <!-- Grid column -->
 
         </div>
