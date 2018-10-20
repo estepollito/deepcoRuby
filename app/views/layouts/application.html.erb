@@ -10,6 +10,105 @@
   </head>
 
   <body>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-expand-md navbar-light bg-white">
+      <a class="navbar-brand" href="index" id="logo-img">
+       <%=image_tag("logo-207x60.png", alt: "logo")%>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item <%= @statusIndex %>">
+            <%= link_to "Inicio", main_index_path, class:"nav-link" %>            
+          </li>
+          <li class="nav-item <%= @statusServices %>">
+            <%= link_to "Servicios", main_services_path, class:"nav-link" %> 
+          </li>
+          <li class="nav-item <%= @statusAboutUs %>">
+            <%= link_to "Quienes somos", main_aboutUs_path, class:"nav-link" %> 
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <%= yield %>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small stylish-color-dark pt-4 margin">
+
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <h5 class="text-uppercase text-center">Encuéntranos en las redes:</h5>
+            <div class="text-center">
+              <a href= "https://www.facebook.com/DeepColombia/" class="fa fa-facebook" target="_blank" aria-hidden="true"></a>
+              <!-- <a href= "" class="fa fa-instagram" target="_blank" aria-hidden="true"></a> -->
+            </div>
+            
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none pb-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3 col-sm-6 col-xsm-6 border-left">
+
+              <!-- Links -->
+              <!-- <h5 class="text-uppercase">Links</h5> -->
+
+              <ul class="list-unstyled">
+                <li>
+                  <%= link_to "Inicio", main_index_path %>             
+                </li>
+                <li>
+                  <%= link_to "Servicios", main_services_path %>
+                </li>
+              </ul>
+
+          </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3 col-sm-6 col-xm-6 no-margin">
+
+              <!-- Links -->
+              <!-- <h5 class="text-uppercase">Links</h5> -->
+
+              <ul class="list-unstyled">
+                <li>
+                  <%= link_to "Quienes somos", main_aboutUs_path %>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">2018 © Copyright
+        <a>DeepCo.</a>
+        <a>Todos los derechos reservados.</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
   </body>
 </html>
