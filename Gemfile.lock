@@ -201,7 +201,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  activerecord
+  activestorage
   bootsnap (>= 1.1.0)
   bootstrap
   byebug
