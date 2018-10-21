@@ -201,7 +201,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  activestorage
   bootsnap (>= 1.1.0)
   bootstrap
   byebug
