@@ -32,6 +32,7 @@ gem 'bootstrap'
 gem 'jquery-rails'
 gem 'rails_12factor'
 gem 'pg'
+gem 'activerecord'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
