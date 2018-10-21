@@ -30,8 +30,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'execjs'
 gem 'bootstrap'
 gem 'jquery-rails'
-gem 'rails_12factor'
-gem 'pg'
 gem 'activerecord'
 
 # Use ActiveStorage variant
@@ -47,6 +45,12 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 
+end
+
+group :production do
+  # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
+  gem 'rails_12factor'
+  gem 'pg'
 end
 
 group :development do
