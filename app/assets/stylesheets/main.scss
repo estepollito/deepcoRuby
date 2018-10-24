@@ -12,20 +12,42 @@
     
 }
 
-.carousel-caption {
+.carousel-caption2 {
   position: absolute;
   right: 15%;
-  bottom: 50%;
-  left: 15%;
+  bottom: 30%;
+  left: 16%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
   text-align: left;
+  font-size: 2vw;
+  font-weight: 3px;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
 }
 
-#slideShowText1 {
+.carousel-caption3 {
+  position: absolute;
+  /*right: 0%;*/
+  bottom: 80%;
+  left: 55%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  font-size: 2vw;
+  font-weight: 3px;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+.slideShowText2 {
   width: 50%;
+}
+
+.slideShowText3 {
+  width: 80%;
 }
 
 #videoHP {
@@ -90,7 +112,7 @@
 
 /* Style all font awesome icons */
 .fa {
-    /*padding: 20px;*/
+    padding: 20px;
     font-size: 30px;
     width: 100%;
     text-align: center;
@@ -157,6 +179,13 @@ a:active {
 
 .deepColor {
   color: #01579b;
+  /*font-size: 3.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  padding-top: 0.1em;*/
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+
 }
 
 .marginAboutUs {
