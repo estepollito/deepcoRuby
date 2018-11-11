@@ -16,8 +16,9 @@
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-expand-md navbar-light bg-white">
       <div class="navbar-brand" id="logo-img">
+       <%=link_to image_tag("logo-207x60_en.png", alt: "", class:"img-fluid"), main_index_path unless @locale == "en" %>
        <%=link_to image_tag("logo-207x60.png", alt: "", class:"img-fluid"), main_index_path if @locale == "es" %>
-       <%=link_to image_tag("logo-207x60_en.png", alt: "", class:"img-fluid"), main_index_path if @locale == "en" %> 
+       <%=link_to image_tag("logo-207x60_en.png", alt: "", class:"img-fluid"), main_index_path if @locale == "en" or nil %> 
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
