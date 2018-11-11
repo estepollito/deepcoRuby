@@ -10,7 +10,7 @@
       <!-- The slideshow -->
       <div id="videoHP" class="carousel-inner" id="homePageSlideShow">
         <div class="carousel-item active">
-          <video class="w-100" autoplay muted loop="true" poster="/cover.jpg">
+          <video class="w-100" autoplay muted loop="true" poster="">
             <source src="/videos/1.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -22,15 +22,15 @@
         <div class="carousel-item">
           <%=image_tag("homePage/2.jpg", alt: "", class:"d-block w-100")%>
           <div class="carousel-caption2 d-none d-md-block"">
-            <h1 class="deepColor">Pionero500</h1>
-            <div class="slideShowText2">Puesta a punto de un vehículo operado remotamente desarrollado por la Universidad Pontificia Bolivariana</div>
+            <h1 class="deepColor"><%= t :slide2title %></h1>
+            <div class="slideShowText2"><%= t :slide2text %></div>
           </div>
         </div>
         <div class="carousel-item">
           <%=image_tag("homePage/3.jpg", alt: "", class:"d-block w-100")%>
           <div class="carousel-caption3 d-none d-md-block"">
-            <h1 class="deepColor">Capacitación</h1>
-            <div class="slideShowText3">Capacitación dirigida al personal de Ecopetrol, realizada en las instalaciones de la Universidad Pontificia Bolivariana</div>
+            <h1 class="deepColor"><%= t :slide3title %></h1>
+            <div class="slideShowText3"><%= t :slide3text %></div>
           </div>
         </div>
       </div>
@@ -46,52 +46,65 @@
     </div>
 
     <div class="container margin text-center">
-      <h1 class="deepColor">¿Qué es DeepCo?</h1>
-      <p class="textSection">Deepco es una empresa de base tecnológica enfocada en el desarrollo de soluciones especializadas, y en la prestación de servicios para el recurso hídrico y el entorno subacuático.</p>
+      <h1 class="deepColor"><%= t :whatDeepcoTitle %></h1>
+      <p class="textSection"><%= t :whatDeepcoText %></p>
     </div>
 
     <div class="parallax1 margin"></div>
 
     <div class="container margin text-center">
-      <h1 class="deepColor">¿Qué hacemos?</h1>
-      <p class="textSection">Desarrollamos soluciones especializadas y prestamos servicios a las organizaciones que tienen interacción con los recursos hídricos y entornos subacuáticos.</p>
+      <h1 class="deepColor"><%= t :whatDeepcoDoesTitle %></h1>
+      <p class="textSection"><%= t :whatDeepcoDoesText %></p>
     </div>
 
     <div class="parallax2 margin"></div>
 
     <div class="container margin text-center">
-      <h1 class="deepColor">¿Cómo lo hacemos?</h1>
-      <p class="textSection">Facilitando los procesos de interacción con recursos hídricos y entornos subacuáticos de los actores y entidades de nuestro segmento de clientes, transformando sus requerimientos en variables de ingeniería, creando soluciones a la medida.</p>
+      <h1 class="deepColor"><%= t :howDeepcoDoesTitle %></h1>
+      <p class="textSection"><%= t :howDeepcoDoesText %></p>
     </div>
 
     <div id="servicios" class="container margin">
       <div class="row">
         <div class="col">
           <div class="container overflow-hidden">
-            <a href="main/services">
-            	<%=image_tag("servicios/1.jpg", alt: "", class:"hover-shadow img-fluid img-thumbnail")%>
-              <div class="centered"><p>Monitoreo y procesamiento de datos</p></div>
-            </a>
+            <div>
+            	<%=link_to image_tag("servicios/1.jpg", alt: "", class:"hover-shadow img-fluid img-thumbnail"), main_services_path %>
+              <div class="centered"><p><%= t :service1 %></p></div>
+            </div>
           </div>
         </div>
         <div class="col">
           <div class="container overflow-hidden">
-            <a href="main/services">
-              <%=image_tag("servicios/2.jpg", alt: "", class:"hover-shadow img-fluid img-thumbnail")%>
-              <div class="centered"><p>Desarrollo de tecnología</p></div>
-            </a>
+            <div>
+              <%=link_to image_tag("servicios/2.jpg", alt: "", class:"hover-shadow img-fluid img-thumbnail"), main_services_path%>
+              <div class="centered"><p><%= t :service2 %></p></div>
+            </div>
           </div>
         </div>
         <div class="col">
           <div class="container overflow-hidden">
-            <a href="main/services">
-              <%=image_tag("servicios/3.jpg", alt: "", class:"hover-shadow img-fluid img-thumbnail")%>
-              <div class="centered"><p>Consultoría y capacitación</p></div>
-            </a>
+            <div>
+              <%=link_to image_tag("servicios/3.jpg", alt: "", class:"hover-shadow img-fluid img-thumbnail"), main_services_path%>
+              <div class="centered"><p><%= t :service3 %></p></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-
+    <!-- <h2 class="margin text-center">Apoyan</h2> -->
+    
+    <div class="row">
+      <div class="col-6 text-center marginAboutUs">
+        <div class="">
+          <%=image_tag("logos/upb", alt: "", class:"img-fluid w-25")%>
+        </div>
+      </div>
+      <div class="col-6 text-center marginAboutUs">
+        <div class="">
+          <%=image_tag("logos/cde", alt: "", class:"img-fluid w-25")%>
+        </div>
+      </div>
+    </div>
   

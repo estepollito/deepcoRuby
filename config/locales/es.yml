@@ -1,0 +1,130 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+es:
+
+  # ----------Plantilla----------
+
+  # Navbar
+  index: Inicio
+  services: Servicios
+  aboutUs: Acerca de nosotros
+  language: Idioma
+  language1: Inglés
+  language2: Español
+
+  # Footer
+  findUsTitle: "Encuéntranos en las redes:"
+  mailUsTitle: Escribenos
+  copyright: " Todos los derechos reservados."
+
+  # ----------Pagina Index----------
+
+  slide2title: Pionero 500
+  slide2text: Puesta a punto de un vehículo operado remotamente desarrollado por la Universidad Pontificia Bolivariana
+  slide3title: Capacitación
+  slide3text: Capacitación dirigida al personal de Ecopetrol, realizada en las instalaciones de la Universidad Pontificia Bolivariana
+  whatDeepcoTitle: ¿Qué es Deepco?
+  whatDeepcoText: Deepco es una empresa de base tecnológica enfocada en el desarrollo de soluciones especializadas, y en la prestación de servicios para el recurso hídrico y el entorno subacuático.
+  whatDeepcoDoesTitle: ¿Qué hacemos?
+  whatDeepcoDoesText: Desarrollamos soluciones especializadas y prestamos servicios a las organizaciones que tienen interacción con los recursos hídricos y entornos subacuáticos.
+  howDeepcoDoesTitle: ¿Cómo lo hacemos?
+  howDeepcoDoesText: Facilitando los procesos de interacción con recursos hídricos y entornos subacuáticos de los actores y entidades de nuestro segmento de clientes, transformando sus requerimientos en variables de ingeniería, creando soluciones a la medida.
+  service1: Monitoreo y procesamiento de datos
+  service2: Desarrollo de tecnología
+  service3: Consultoría y capacitación
+
+  # ----------Page Services----------
+  service1Text1: Poseemos amplia experiencia en el desarrollo de sistemas subacuáticos. Integramos tanto dispositivos desarrollados por nuestro equipo, como tecnología disponible en el mercado, para crear soluciones acordes con las necesidades de nuestro segmento.
+  service1Text2: "Algunas de las soluciones que ofrecemos son:"
+  service1Ulist1: Reducción de costos asociados a los tiempos necesarios para obtener soporte técnico para tecnología importada.
+  service1Ulist2: Construcción de planes de mantenimiento a la medida de las necesidades del usuario y basados en las recomendaciones de los fabricantes.
+  service1Ulist3: Desarrollo de soluciones tecnológicas que faciliten la interacción con equipos comerciales para medición de variables físicas.
+  service1Ulist4: Desarrollo de soluciones tecnológicas para el monitoreo y la toma de muestras digitales y/o físicas para cuerpos de agua.
+
+  service2Text1: DeepCo entiende la importancia que tiene para sus clientes la captura y procesamiento de datos. Suministramos herramientas para facilitar la toma, el procesamiento, el análisis y la generación de información de interés para el desarrollo de sus proyectos.
+  service2Text2: "Algunas de las soluciones que ofrecemos son:"
+  service2Ulist1: Desarrollo de aplicaciones para el procesamiento de información.
+  service2Ulist2: Integración de sensores remotos para procesamiento de información consolidada.
+  service2Ulist3: Desarrollo de aplicaciones para georreferenciación de variables físicas y digitales.
+  service2Ulist4:
+
+  service3Text1: Ofrecemos asesoría, acompañamiento y capacitación en temas relacionadas con tecnologías para el recurso hídrico y entornos subacuáticos.
+  service3Text2: "Algunas de las soluciones que ofrecemos son:"
+  service3Ulist1: Diagnóstico tecnológico para la intervención de procesos en cuerpos de agua.
+  service3Ulist2: Identificación y selección de dispositivos adecuados para la intervención de procesos en recursos hídricos.
+  service3Ulist3: Capacitación en operación y mantenimiento de tecnologías para exploración subacuática.
+  service3Ulist4: Puesta a punto de sistemas de exploración subacuática.
+  
+  # ----------Page About Us----------
+
+  misionTitle: Misión
+  misionText: Ofrecer soluciones tecnológicas al entorno subacuático Colombiano, buscando fortalecer el aprovechamiento y conservación de los recursos hídricos del país, aplicando ingeniería de vanguardia.
+  visionTitle: Visión
+  visioText: Para el año 2023, DeepCo se habrá consolidado como empresa referente en la implementación de tecnologías innovadoras para el entorno subacuático, generando soluciones a la medida de las necesidades de nuestros clientes, y aportando al conocimiento científico, comercial e industrial del recurso hídrico Colombiano.
+  valueTitle: Propuesta de valor
+  valueText: Facilitamos los procesos de interacción con los recursos hídricos de nuestro segmento de clientes, transformando sus requerimientos en variables de ingeniería, creando soluciones a la medida.
+
+  ourTeamTitle: Equipo de trabajo
+
+  member1Name: Sergio A. Suárez Vélez, M.Sc.
+  member1Qualification: Ingeniero Mecánico
+  member1Description: Vigilancia tecnológica, diseño e integración de sistemas mecánicos y procesamiento de polímeros.
+
+  member2Name: Diana C. Hernández Jaramillo, M.Sc.
+  member2Qualification: Ingeniera Aeronáutica
+  member2Description: Dinámica computacional de fluidos y metodologías de diseño biomimético.
+
+  member3Name: Esteban Palacio Velásquez, M.Sc.
+  member3Qualification: Ingeniero Mecánico
+  member3Description: Diseño, integración y manufactura de sistemas mecánicos. Implementación de metodologias, concentradas en las necesidades de los clientes, para el desarrollo de sistemas complejos.
+
+  member4Name: Luis Miguel Aristizábal Gómez, M.Sc.
+  member4Qualification: Ingeniero Electrónico
+  member4Description: Diseño e integración de sistemas electrónicos y sistemas embebidos.
+
+  member5Name: Cindy V. Carmona Cadavid, M.Sc.
+  member5Qualification: Ingeniera de Control
+  member5Description: Diseño e integración de infraestructuras de comunicación y diseño de estrategias de control.
+
+  member6Name: Andrea Builes Gómez, M.Sc.
+  member6Qualification: Ingeniera Mecánica
+  member6Description: Diseño e integración de sistemas mecánicos, selección de materiales, y CAD-CAE-CAM.
+
+  member7Name: Yesid O. Valencia Soto, M.Sc.
+  member7Qualification: Ingeniero Electrónico
+  member7Description: Sistemas de información geográfica y diseño e integración de sistemas electrónicos.
+
+  member8Name: Cristian D. Martínez Posada, M.Sc.
+  member8Qualification: Ingeniero Electrónico
+  member8Description: Sistemas de adquisición, instrumentación IoT.
+
+

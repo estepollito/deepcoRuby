@@ -1,19 +1,26 @@
 	<div id="imageAboutUs" class="container">
-      <%=image_tag("aboutUs/1", alt: "", class:"img-fluid")%>
-    </div>
+      <%= image_tag("aboutUs/1", alt: "", class:"img-fluid") if @locale == "es" %>
+      <%= image_tag("aboutUs/2", alt: "", class:"img-fluid") if @locale == "en" %>
+      
+  </div>
     
     <div class="container margin">
-      <h1 class="deepColor text-center">Misión</h1>
-      <p class="textSection">Ofrecer soluciones tecnológicas al entorno subacuático Colombiano, buscando fortalecer el aprovechamiento y conservación de los recursos hídricos del país, aplicando ingeniería de vanguardia.</p>
+      <h1 class="deepColor text-center"><%= t :misionTitle %></h1>
+      <p class="textSection text-justify"><%= t :misionText %></p>
     </div>
 
     <div class="container margin">
-      <h1 class="deepColor text-center">Visión</h1>
-      <p class="textSection">Para el año 2023, DeepCo se habrá consolidado como empresa referente en la implementación de tecnologías innovadoras para el entorno subacuático, generando soluciones a la medida de las necesidades de nuestros clientes, y aportando al conocimiento científico, comercial e industrial del recurso hídrico Colombiano.</p>
+      <h1 class="deepColor text-center"><%= t :visionTitle %></h1>
+      <p class="textSection text-justify"><%= t :misionText %></p>
+    </div>
+
+    <div class="container margin">
+      <h1 class="deepColor text-center"><%= t :valueTitle %></h1>
+      <p class="textSection text-justify"><%= t :valueText %></p>
     </div>
 
     <!-- DeepCo TEAM -->
-    <h2 class="margin text-center deepColor">Equipo de trabajo</h2>
+    <h2 class="margin text-center deepColor"><%= t :ourTeamTitle %></h2>
     <div class="container text-center text-md-left margin">
 
       <div class="row">
@@ -23,9 +30,9 @@
         </div>
 
         <div class="col-md-4">
-          <h4>Sergio A. Suárez Vélez, M.Sc.</h4>
-          <h5>Ingeniero Mecánico</h5>
-          <p class="justify">Vigilancia tecnológica, diseño e integración de sistemas mecánicos y procesamiento de polímeros.</p>
+          <h4><%= t :member1Name %></h4>
+          <h5><%= t :member1Qualification %></h5>
+          <p class="justify"><%= t :member1Description %></p>
         </div>
 
         <div class="col-md-2">
@@ -33,9 +40,9 @@
         </div>
 
         <div class="col-md-4">
-          <h4>Diana C. Hernández Jaramillo, M.Sc.</h4>
-          <h5>Ingeniera Aeronáutica</h5>
-          <p class="justify">Dinámica computacional de fluidos y metodologías de diseño biomimético.</p>
+          <h4><%= t :member2Name %></h4>
+          <h5><%= t :member2Qualification %></h5>
+          <p class="justify"><%= t :member2Description %></p>
         </div>
 
       </div>
@@ -47,9 +54,9 @@
         </div>
 
         <div class="col-md-4 marginAboutUs">
-          <h4>Esteban Palacio Velásquez, M.Sc.</h4>
-          <h5>Ingeniero Mecánico</h5>
-          <p class="justify">Diseño, integración y manufactura de sistemas mecánicos con énfasis en la implementación de metodologías de diseño.</p>
+          <h4><%= t :member3Name %></h4>
+          <h5><%= t :member3Qualification %></h5>
+          <p class="justify"><%= t :member3Description %></p>
         </div>
 
         <div class="col-md-2 marginAboutUs">
@@ -57,9 +64,9 @@
         </div>
 
         <div class="col-md-4 marginAboutUs">
-          <h4>Luis Miguel Aristizábal Gómez, M.Sc.</h4>
-          <h5>Ingeniero Electrónico</h5>
-          <p class="justify">Diseño e integración de sistemas electrónicos y sistemas embebidos.</p>
+          <h4><%= t :member4Name %></h4>
+          <h5><%= t :member4Qualification %></h5>
+          <p class="justify"><%= t :member4Description %></p>
         </div>
 
       </div>
@@ -71,9 +78,9 @@
         </div>
 
         <div class="col-md-4 marginAboutUs">
-          <h4>Cindy V. Carmona Cadavid, M.Sc.</h4>
-          <h5>Ingeniera de Control</h5>
-          <p class="justify">Diseño e integración de infraestructuras de comunicación y diseño de estrategias de control.</p>
+          <h4><%= t :member5Name %></h4>
+          <h5><%= t :member5Qualification %></h5>
+          <p class="justify"><%= t :member5Description %></p>
         </div>
 
         <div class="col-md-2 marginAboutUs">
@@ -81,9 +88,9 @@
         </div>
 
         <div class="col-md-4 marginAboutUs">
-          <h4>Andrea Builes Gómez, M.Sc.</h4>
-          <h5>Ingeniera Mecánica</h5>
-          <p class="justify">Diseño e integración de sistemas mecánicos, selección de materiales, y CAD-CAE-CAM.</p>
+          <h4><%= t :member6Name %></h4>
+          <h5><%= t :member6Qualification %></h5>
+          <p class="justify"><%= t :member6Description %></p>
         </div>
 
       </div>
@@ -95,9 +102,9 @@
         </div>
 
         <div class="col-md-4 marginAboutUs">
-          <h4>Yesid O. Valencia Soto, M.Sc.</h4>
-          <h5>Ingeniero Electrónico</h5>
-          <p class="justify">Sistemas de información geográfica y diseño e integración de sistemas electrónicos.</p>
+          <h4><%= t :member7Name %></h4>
+          <h5><%= t :member7Qualification %></h5>
+          <p class="justify"><%= t :member7Description %></p>
         </div>
 
         <div class="col-md-2 marginAboutUs">
@@ -105,9 +112,9 @@
         </div>
 
         <div class="col-md-4 marginAboutUs">
-          <h4>Cristian D. Martínez Posada, M.Sc.</h4>
-          <h5>Ingeniero Electrónico</h5>
-          <p class="justify">Sistemas de adquisición, instrumentación IoT.</p>
+          <h4><%= t :member8Name %></h4>
+          <h5><%= t :member8Qualification %></h5>
+          <p class="justify"><%= t :member8Description %></p>
         </div>
 
       </div>

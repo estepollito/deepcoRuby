@@ -30,4 +30,99 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+
+  # ----------Plantilla----------
+
+  # Navbar
+  index: Home
+  services: Services
+  aboutUs: About Us
+  language: Language
+  language1: English
+  language2: Spanish
+
+  # Footer
+  findUsTitle: "Find us on social media:"
+  mailUsTitle: Email us
+  copyright: " All rights reserved."
+
+  # ----------Page Index----------
+  slide2title: Pionero 500
+  slide2text: Tuning of a remotely operated vehicle developed by the Universidad Pontificia Bolivariana
+  slide3title: Training
+  slide3text: Training directed to a personnel of Ecopetrol
+  whatDeepcoTitle: What is Deepco?
+  whatDeepcoText: Deepco is a Technology-based Company, focused on the development of specialized solutions and services, for companies related with water resources and underwater environments.
+  whatDeepcoDoesTitle: What we do?
+  whatDeepcoDoesText: We seek to ease the processes that involve interaction with water resources and underwater environments for our client segment, generating custom solutions from specific requirements.
+  howDeepcoDoesTitle: How we do it?
+  howDeepcoDoesText: By facilitating our clients' interaction processes related to water resources and underwater environments, as well as transforming their requirements into engineering variables to create customized solutions.
+  service1: Technology Development
+  service2: Data monitoring and processing
+  service3: Consultancy and training
+
+  # ----------Page Services----------
+  service1Text1: We have extensive experience on underwater systems development. We integrate both custom-made devices developed by our team and Commercial Off-The-Shelf technologies, creating solutions according to our clients segment needs.
+  service1Text2: "Some of the solutions offered are:"
+  service1Ulist1: Cost reduction in technical support for overseas technology.
+  service1Ulist2: Drawing up maintenance plans according to the user needs while adopting manufacturer’s recommendations.
+  service1Ulist3: Development of technological solutions that facilitate interaction with commercial measurement equipment for physical variables.
+  service1Ulist4: Implementation of monitoring and physical/digital sampling technology for water bodies.
+
+  service2Text1: DeepCo understands the importance of data capture and processing to its clients. We supply tools to enable acquisition, processing, analysis and generation of meaningful information for the development of their projects.
+  service2Text2: "Some of the solutions we provide:"
+  service2Ulist1: Development of applications for information processing.
+  service2Ulist2: Integration of remote sensors for consolidated information processing.
+  service2Ulist3: Development of applications for georeferencing of physical and digital variables.
+  service2Ulist4:
+
+  service3Text1: We provide consultancy, assistance and training on topics related to technologies for water resources and underwater environments.
+  service3Text2: "Some of the solutions we provide:"
+  service3Ulist1: Technological diagnosis for process intervention on water bodies.
+  service3Ulist2: Identification and selection of appropriate devices for process intervention on water resources.
+  service3Ulist3: Training on operation and maintenance of underwater exploration technologies.
+  service3Ulist4: Tunning interventions of underwater exploration systems.
+
+# ----------Page About Us----------
+
+  misionTitle: Mision
+  misionText: Offering technological solutions to the subacuatic colombian enviroment seeking the utilization and conservation of the country's water resources, by applying state-of-the-art engineering.
+  visionTitle: Vision
+  visioText: By 2023, DeepCo will have established itself as a leading company in the implementation of innovative technologies for the underwater environment, generating solutions tailored to the needs of our customers, and contributing to the scientific, commercial and industrial knowledge of the Colombian water resource.
+  valueTitle: Value proposal
+  valueText: We seek to ease the processes that involve interaction with water resources and underwater environments for our client segment, generating custom solutions from specific requirements.
+
+  ourTeamTitle: Deepco Team
+
+  member1Name: Sergio A. Suárez Vélez, M.Sc.
+  member1Qualification: Mechanical Engineer
+  member1Description: Technology watch, mechanical system design and integration, polymer processing.
+
+  member2Name: Diana C. Hernández Jaramillo, M.Sc.
+  member2Qualification: Aeronautical Engineer
+  member2Description: Computational Fluid Dynamics (CFD), biomimetic design methodologies.
+
+  member3Name: Esteban Palacio Velásquez, M.Sc.
+  member3Qualification: Mechanical Engineer
+  member3Description: Design, integration and manufacture of mechanical systems. Implementation of systems engineering methodologies for the development of complex systems.
+
+  member4Name: Luis Miguel Aristizábal Gómez, M.Sc.
+  member4Qualification: Electronic Engineer
+  member4Description: Design and integration of electronic and embedded systems, software development.
+
+  member5Name: Cindy V. Carmona Cadavid, M.Sc.
+  member5Qualification: Ingeniera de Control
+  member5Description: Design and integration of communication infrastructure, control strategies design.
+
+  member6Name: Andrea Builes Gómez, M.Sc.
+  member6Qualification: Mechanical Engineer
+  member6Description: Design and integration of mechanical systems, materials selection, CAD-CAE-CAM.
+
+  member7Name: Yesid O. Valencia Soto, M.Sc.
+  member7Qualification: Ingeniero Electrónico
+  member7Description: Geographic Information Systems (GIS), design and integration of electronic systems.
+
+  member8Name: Cristian D. Martínez Posada, M.Sc.
+  member8Qualification: Ingeniero Electrónico
+  member8Description: Data Acquisition systems, Internet of Things instrumentation.
+

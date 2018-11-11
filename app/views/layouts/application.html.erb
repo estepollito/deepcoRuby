@@ -15,23 +15,37 @@
   <body>
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-expand-md navbar-light bg-white">
-      <a class="navbar-brand" href="index" id="logo-img">
-       <%=image_tag("logo-207x60.png", alt: "logo")%>
-      </a>
+      <div class="navbar-brand" id="logo-img">
+       <%=link_to image_tag("logo-207x60.png", alt: "", class:"img-fluid"), main_index_path if @locale == "es" %>
+       <%=link_to image_tag("logo-207x60_en.png", alt: "", class:"img-fluid"), main_index_path if @locale == "en" %> 
+      </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item <%= @statusIndex %>">
-            <%= link_to "Inicio", main_index_path, class:"nav-link" %>            
+          <li class="nav-item <%= @statusIndex %> text-center">
+            <%= link_to(main_index_path, class:"nav-link") do %>
+              <%= t :index %>
+            <% end %>            
           </li>
-          <li class="nav-item <%= @statusServices %>">
-            <%= link_to "Servicios", main_services_path, class:"nav-link" %> 
+          <li class="nav-item <%= @statusServices %> text-center">
+            <%= link_to(main_services_path, class:"nav-link") do %>
+              <%= t :services %>
+            <% end %>   
           </li>
-          <li class="nav-item <%= @statusAboutUs %>">
-            <%= link_to "Quienes somos", main_aboutUs_path, class:"nav-link" %> 
+          <li class="nav-item <%= @statusAboutUs %> text-center">
+            <%= link_to(main_aboutUs_path, class:"nav-link") do %>
+              <%= t :aboutUs %>
+            <% end %>  
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <%= t :language %> </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="?locale=en"><%= t :language1 %></a>
+              <a class="dropdown-item" href="?locale=es"><%= t :language2 %></a>
+            </div>  
           </li>
         </ul>
       </div>
@@ -40,7 +54,7 @@
     <%= yield %>
 
     <!-- Footer -->
-    <footer class="page-footer font-small stylish-color-dark pt-4 margin">
+    <footer class="page-footer font-small stylish-color-dark pt-4 marginAboutUs">
 
       <!-- Footer Links -->
       <div class="container-fluid text-center text-md-left">
@@ -52,13 +66,11 @@
           <div class="col-md-6 mt-md-0 mt-3">
 
             <!-- Content -->
-            <h5 class="text-uppercase text-center">Encuéntranos en las redes:</h5>
+            <h5 class="text-uppercase text-center"><%= t :findUsTitle %></h5>
             <div class="text-center">
               <a href= "https://www.facebook.com/DeepColombia/" class="fa fa-facebook" target="_blank" aria-hidden="true"></a>
-          
-            </div>
-            
-            
+              <a href= "https://www.linkedin.com/company/deepco-sas/" class="fa fa-linkedin" target="_blank" aria-hidden="true"></a>
+            </div>          
 
           </div>
           <!-- Grid column -->
@@ -73,33 +85,34 @@
 
               <ul class="list-unstyled">
                 <li>
-                  <%= link_to "Inicio", main_index_path %>             
+                  <%= link_to(main_index_path) do %>
+                    <%= t :index %>
+                  <% end %>             
                 </li>
                 <li>
-                  <%= link_to "Servicios", main_services_path %>
+                  <%= link_to(main_services_path) do %>
+                    <%= t :services %>
+                  <% end %>
                 </li>
                 <li>
-                  <%= link_to "Quienes somos", main_aboutUs_path %>
+                  <%= link_to(main_aboutUs_path) do %>
+                    <%= t :aboutUs %>
+                  <% end %>
                 </li>
               </ul>
 
           </div>
             <!-- Grid column -->
-
         </div>
-        <!-- <div class="row">
 
-          <ul class="list-unstyled">
-            <li>
-              <a href= "" class="fa fa-phone text-center" target="_blank" aria-hidden="true"> +57 3007921144</a>             
-            </li>
-            <li>
-              <a href= "" class="fa fa-envelope text-center" target="_blank" aria-hidden="true"> contacto@deepco.com.co</a>
-            </li>
-          </ul>
-            
-            
-        </div> -->
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3 text-center"> 
+            <h5 class="text-uppercase"><%= t :mailUsTitle %></h5>             
+            <!-- <a href="+57" class="mailto fa fa-phone text-center" target="_blank"> +57 3007921144</a>          -->
+            <a href="mailto:contacto@deepco.com.co" class="fa fa-envelope text-center" target="_blank"> contacto@deepco.com.co</a>
+                        
+          </div> 
+        </div>
         <!-- Grid row -->
 
       </div>
@@ -108,7 +121,7 @@
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">2018 © Copyright
         <a>DeepCo.</a>
-        <a>Todos los derechos reservados.</a>
+        <a><%= t :copyright %></a>
       </div>
       <!-- Copyright -->
 
