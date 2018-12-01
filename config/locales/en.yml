@@ -48,7 +48,7 @@ en:
 
   # ----------Page Index----------
   slide2title: Pionero 500
-  slide2text: Tuning of a remotely operated vehicle developed by the Universidad Pontificia Bolivariana
+  slide2text: Tuning of a remotely operated vehicle (ROV) developed by the Universidad Pontificia Bolivariana
   slide3title: Training
   slide3text: Training directed to a personnel of Ecopetrol
   whatDeepcoTitle: What is Deepco?
@@ -60,7 +60,7 @@ en:
   service1: Technology Development
   service2: Data monitoring and processing
   service3: Consultancy and training
-  supportedBy: "Suported by:"
+  supportedBy: "Supported by:"
 
   # ----------Page Services----------
   service1Text1: We have extensive experience on underwater systems development. We integrate both custom-made devices developed by our team and Commercial Off-The-Shelf technologies, creating solutions according to our clients segment needs.
@@ -97,7 +97,7 @@ en:
 
   member1Name: Sergio A. Suárez Vélez, M.Sc.
   member1Qualification: Mechanical Engineer
-  member1Description: Technology watch, mechanical system design and integration, polymer processing.
+  member1Description: Mechanical system design and integration, polymer processing.
 
   member2Name: Diana C. Hernández Jaramillo, M.Sc.
   member2Qualification: Aeronautical Engineer

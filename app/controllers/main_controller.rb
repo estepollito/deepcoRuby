@@ -1,7 +1,7 @@
 class MainController < ApplicationController
 
   def index
-    @locale = "en"
+    @locale = "es"
   	@statusIndex = "active"
   	@statusServices = ""
   	@statusAboutUs = ""
