@@ -7,6 +7,10 @@
   margin-left: 40px;
 }
 
+#navbarDropdown {
+  left: -3vw;
+}
+
 /*----------SlideShow----------*/
 .bg-white{
   opacity: 0.8;
@@ -68,6 +72,10 @@
 .container .row{
   margin: 0px;
   width: 100%;
+}
+
+.row{
+  margin: 0px;
 }
 
 #servicios div{
@@ -141,9 +149,15 @@
 /*----------Additional----------*/
 
 body {
-font-family: 'Lato'; 
-font-size: 18px;
-font-weight: 300;
+  overflow-x: hidden;
+  width:100%;
+  height:100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-family: 'Lato'; 
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .margin {
@@ -260,4 +274,8 @@ a:active {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.text-center{
+  padding: 0px;
 }
