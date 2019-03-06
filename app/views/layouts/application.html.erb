@@ -37,6 +37,11 @@
               <%= t :services %>
             <% end %>   
           </li>
+          <li class="nav-item <%= @statusCapabilities %> text-center">
+            <%= link_to(main_capabilities_path, class:"nav-link") do %>
+              <%= t :capabilities %>
+            <% end %>   
+          </li>
           <li class="nav-item <%= @statusAboutUs %> text-center">
             <%= link_to(main_aboutUs_path, class:"nav-link") do %>
               <%= t :aboutUs %>
@@ -94,6 +99,11 @@
                 <li>
                   <%= link_to(main_services_path) do %>
                     <%= t :services %>
+                  <% end %>
+                </li>
+                <li>
+                  <%= link_to(main_capabilities_path) do %>
+                    <%= t :capabilities %>
                   <% end %>
                 </li>
                 <li>

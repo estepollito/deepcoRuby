@@ -36,6 +36,7 @@ es:
   # Navbar
   index: Inicio
   services: Servicios
+  capabilities: Capacidades
   aboutUs: Acerca de nosotros
   language: Idioma
   language1: Inglés
@@ -48,6 +49,8 @@ es:
 
   # ----------Pagina Index----------
 
+  slide1title: Multiplexor MacArtney NEXUS MK VI 
+  slide1text: Reparación de uno de los canales de video del dispositivo a traves del contacto con el fabricante y la intervención in-situ. 
   slide2title: Pionero 500
   slide2text: Puesta a punto de un vehículo operado remotamente (ROV) desarrollado por la Universidad Pontificia Bolivariana
   slide3title: Capacitación
@@ -58,32 +61,46 @@ es:
   whatDeepcoDoesText: Desarrollamos soluciones especializadas y prestamos servicios a las organizaciones que tienen interacción con los recursos hídricos y entornos subacuáticos.
   howDeepcoDoesTitle: ¿Cómo lo hacemos?
   howDeepcoDoesText: Facilitando los procesos de interacción con recursos hídricos y entornos subacuáticos de los actores y entidades de nuestro segmento de clientes, transformando sus requerimientos en variables de ingeniería, creando soluciones a la medida.
-  service1: Monitoreo y procesamiento de datos
-  service2: Desarrollo de tecnología
-  service3: Consultoría y capacitación
+  capabilities1: Monitoreo y procesamiento de datos
+  capabilities2: Desarrollo de tecnología
+  capabilities3: Consultoría y capacitación
   supportedBy: "Apoyan:"
 
   # ----------Page Services----------
-  service1Text1: Poseemos amplia experiencia en el desarrollo de sistemas subacuáticos. Integramos tanto dispositivos desarrollados por nuestro equipo, como tecnología disponible en el mercado, para crear soluciones acordes con las necesidades de nuestro segmento.
-  service1Text2: "Algunas de las soluciones que ofrecemos son:"
-  service1Ulist1: Reducción de costos asociados a los tiempos necesarios para obtener soporte técnico para tecnología importada.
-  service1Ulist2: Construcción de planes de mantenimiento a la medida de las necesidades del usuario y basados en las recomendaciones de los fabricantes.
-  service1Ulist3: Desarrollo de soluciones tecnológicas que faciliten la interacción con equipos comerciales para medición de variables físicas.
-  service1Ulist4: Desarrollo de soluciones tecnológicas para el monitoreo y la toma de muestras digitales y/o físicas para cuerpos de agua.
 
-  service2Text1: DeepCo entiende la importancia que tiene para sus clientes la captura y procesamiento de datos. Suministramos herramientas para facilitar la toma, el procesamiento, el análisis y la generación de información de interés para el desarrollo de sus proyectos.
-  service2Text2: "Algunas de las soluciones que ofrecemos son:"
-  service2Ulist1: Desarrollo de aplicaciones para el procesamiento de información.
-  service2Ulist2: Integración de sensores remotos para procesamiento de información consolidada.
-  service2Ulist3: Desarrollo de aplicaciones para georreferenciación de variables físicas y digitales.
-  service2Ulist4:
+  services1title: Mantenimiento preventivo de tecnología subacuática
+  services1description: DeepCo ofrece este nuevo servicio para clientes que trabajan con dispositivos subacuáticos y que busquen mantener dichos dispositivos en condiciones óptimas de operación.
+  services1methodologyTitle: Metodología
+  services1methodology0: Etapa 0. Recopilación de información
+  services1methodology0text: En esta etapa DeepCo realiza un estudio detallado sobre la información que se tenga sobre el dispositivo, dando importancia no solo a la información del fabricante del equipo sino tambien a know how generado por el cliente a traves del uso del mismo (esta etapa se realiza una sola vez con el fin de que DeepCo pueda obtener la información suficiente para generar un plan de mantenimiento adecuado)
+  services1methodology1: Etapa 1. Valoración del equipo
+  services1methodology1text: La segunda etapa del proceso, consiste en la inspección visual y pruebas del funcionamiento del dispositivo, esto con el fin de comprobar el estado del mismo y a su vez los procedimientos que se usan durante su operación.
+  services1methodology2: Etapa 2. Mantenimiento preventivo
+  services1methodology2text: En esta etapa se realiza el mantenimiento prventivo del dispositivo teniendo en cuenta la información de referencia y el estado actual del dispositivo.
+  services1methodology3: Etapa 3. Documentación para la trazabilidad
+  services1methodology3text: En la etapa de documentación se genera un informe detallado sobre el estado dispositivo antes y despues de la intervención, se generan recomendaciones sobre su uso y se registra la información con el fin de mantener la trazabilidad del estado del dispositivo.
 
-  service3Text1: Ofrecemos asesoría, acompañamiento y capacitación en temas relacionadas con tecnologías para el recurso hídrico y entornos subacuáticos.
-  service3Text2: "Algunas de las soluciones que ofrecemos son:"
-  service3Ulist1: Diagnóstico tecnológico para la intervención de procesos en cuerpos de agua.
-  service3Ulist2: Identificación y selección de dispositivos adecuados para la intervención de procesos en recursos hídricos.
-  service3Ulist3: Capacitación en operación y mantenimiento de tecnologías para exploración subacuática.
-  service3Ulist4: Puesta a punto de sistemas de exploración subacuática.
+  # ----------Page Capabilities----------
+  capabilities1Text1: Poseemos amplia experiencia en el desarrollo de sistemas subacuáticos. Integramos tanto dispositivos desarrollados por nuestro equipo, como tecnología disponible en el mercado, para crear soluciones acordes con las necesidades de nuestro segmento.
+  capabilities1Text2: "Algunas de las soluciones que ofrecemos son:"
+  capabilities1Ulist1: Reducción de costos asociados a los tiempos necesarios para obtener soporte técnico para tecnología importada.
+  capabilities1Ulist2: Construcción de planes de mantenimiento a la medida de las necesidades del usuario y basados en las recomendaciones de los fabricantes.
+  capabilities1Ulist3: Desarrollo de soluciones tecnológicas que faciliten la interacción con equipos comerciales para medición de variables físicas.
+  capabilities1Ulist4: Desarrollo de soluciones tecnológicas para el monitoreo y la toma de muestras digitales y/o físicas para cuerpos de agua.
+
+  capabilities2Text1: DeepCo entiende la importancia que tiene para sus clientes la captura y procesamiento de datos. Suministramos herramientas para facilitar la toma, el procesamiento, el análisis y la generación de información de interés para el desarrollo de sus proyectos.
+  capabilities2Text2: "Algunas de las soluciones que ofrecemos son:"
+  capabilities2Ulist1: Desarrollo de aplicaciones para el procesamiento de información.
+  capabilities2Ulist2: Integración de sensores remotos para procesamiento de información consolidada.
+  capabilities2Ulist3: Desarrollo de aplicaciones para georreferenciación de variables físicas y digitales.
+  capabilities2Ulist4:
+
+  capabilities3Text1: Ofrecemos asesoría, acompañamiento y capacitación en temas relacionadas con tecnologías para el recurso hídrico y entornos subacuáticos.
+  capabilities3Text2: "Algunas de las soluciones que ofrecemos son:"
+  capabilities3Ulist1: Diagnóstico tecnológico para la intervención de procesos en cuerpos de agua.
+  capabilities3Ulist2: Identificación y selección de dispositivos adecuados para la intervención de procesos en recursos hídricos.
+  capabilities3Ulist3: Capacitación en operación y mantenimiento de tecnologías para exploración subacuática.
+  capabilities3Ulist4: Puesta a punto de sistemas de exploración subacuática.
   
   # ----------Page About Us----------
 

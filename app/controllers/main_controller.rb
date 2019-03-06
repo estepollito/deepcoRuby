@@ -4,18 +4,28 @@ class MainController < ApplicationController
     @locale = "es"
   	@statusIndex = "active"
   	@statusServices = ""
+    @statusCapabilities = ""
   	@statusAboutUs = ""
   end
 
   def services
+    @statusIndex = ""
+    @statusServices = "active"
+    @statusCapabilities = ""
+    @statusAboutUs = ""
+  end
+
+  def capabilities
   	@statusIndex = ""
-  	@statusServices = "active"
+  	@statusServices = ""
+    @statusCapabilities = "active"
   	@statusAboutUs = ""
   end
 
   def aboutUs
   	@statusIndex = ""
   	@statusServices = ""
+    @statusCapabilities = ""
   	@statusAboutUs = "active"
   end
   

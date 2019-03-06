@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get 'main/index'
   get 'main/services'
+  get 'main/capabilities'
   get 'main/aboutUs'
 
   root 'main#index'

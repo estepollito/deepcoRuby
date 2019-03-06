@@ -11,9 +11,13 @@
       <div id="videoHP" class="carousel-inner">
         <div class="carousel-item active">
           <video class="w-100" autoplay muted loop>
-            <source src="/videos/1.mp4" type="video/mp4">
+            <source src="/videos/deepco_2.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
+          <div class="carousel-caption1 d-none d-md-block">
+            <h1 class="deepColor justify"><%= t :slide1title %></h1>
+            <div class="slideShowText1 justify"><%= t :slide1text %></div>
+          </div>
           <!-- <div class="carousel-caption d-none d-md-block">
             <h1 class="deepColor">Pionero500</h1>
             <div class="slideShowText1">Puesta a punto del vehiculo operado remotamente desarrollado por la Universidad Pontificia Bolivariana</div>
@@ -22,15 +26,15 @@
         <div class="carousel-item">
           <%=image_tag("homePage/deepco_2.jpg", alt: "deepco", class:"d-block w-100")%>
           <div class="carousel-caption2 d-none d-md-block">
-            <h1 class="deepColor"><%= t :slide2title %></h1>
-            <div class="slideShowText2"><%= t :slide2text %></div>
+            <h1 class="deepColor justify"><%= t :slide2title %></h1>
+            <div class="slideShowText2 justify"><%= t :slide2text %></div>
           </div>
         </div>
         <div class="carousel-item">
           <%=image_tag("homePage/deepco_3.jpg", alt: "deepco", class:"d-block w-100")%>
           <div class="carousel-caption3 d-none d-md-block">
-            <h1 class="deepColor"><%= t :slide3title %></h1>
-            <div class="slideShowText3"><%= t :slide3text %></div>
+            <h1 class="deepColor justify"><%= t :slide3title %></h1>
+            <div class="slideShowText3 justify"><%= t :slide3text %></div>
           </div>
         </div>
       </div>
@@ -66,27 +70,27 @@
 
     <div id="servicios" class="container margin">
       <div class="row">
-        <div class="col">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm">
           <div class="container overflow-hidden">
             <div>
-            	<%=link_to image_tag("servicios/deepco_1.jpg", alt: "deepco", class:"hover-shadow img-fluid img-thumbnail"), main_services_path %>
-              <div class="centered"><p><%= t :service1 %></p></div>
+            	<%=link_to image_tag("servicios/deepco_1.jpg", alt: "deepco", class:"hover-shadow img-fluid img-thumbnail"), main_capabilities_path %>
+              <div class="centered"><p><%= t :capabilities1 %></p></div>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm">
           <div class="container overflow-hidden">
             <div>
-              <%=link_to image_tag("servicios/deepco_2.jpg", alt: "deepco", class:"hover-shadow img-fluid img-thumbnail"), main_services_path%>
-              <div class="centered"><p><%= t :service2 %></p></div>
+              <%=link_to image_tag("servicios/deepco_2.jpg", alt: "deepco", class:"hover-shadow img-fluid img-thumbnail"), main_capabilities_path%>
+              <div class="centered"><p><%= t :capabilities2 %></p></div>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm">
           <div class="container overflow-hidden">
             <div>
-              <%=link_to image_tag("servicios/deepco_3.jpg", alt: "deepco", class:"hover-shadow img-fluid img-thumbnail"), main_services_path%>
-              <div class="centered"><p><%= t :service3 %></p></div>
+              <%=link_to image_tag("servicios/deepco_3.jpg", alt: "deepco", class:"hover-shadow img-fluid img-thumbnail"), main_capabilities_path%>
+              <div class="centered"><p><%= t :capabilities3 %></p></div>
             </div>
           </div>
         </div>
@@ -94,14 +98,13 @@
     </div>
 
     <!-- <h2 class="margin text-center">Apoyan</h2> -->
-    
     <div class="row">
       <div class="col-12 text-center marginAboutUs">
         <h3><%= t :supportedBy %></h3>
       </div>
-      <div class="col-12 text-center marginAboutUs">
-        <div class="">
-          <%=image_tag("logos/deepco_upb-cde", alt: "deepco", class:"img-fluid w-25")%>
+      <div class="col-6 text-center marginAboutUs mx-auto">
+        <div>
+          <%=image_tag("logos/deepco_upb-cde", alt: "deepco", class:"img-fluid")%>
         </div>
       </div>
       <!-- <div class="col-6 text-center marginAboutUs">
@@ -115,4 +118,5 @@
         </div>
       </div> -->
     </div>
+  
   
