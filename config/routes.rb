@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get 'main/services'
   get 'main/capabilities'
   get 'main/aboutUs'
+  get 'main/galeon'
+
 
   root 'main#index'
   

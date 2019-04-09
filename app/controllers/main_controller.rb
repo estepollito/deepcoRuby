@@ -6,6 +6,7 @@ class MainController < ApplicationController
   	@statusServices = ""
     @statusCapabilities = ""
   	@statusAboutUs = ""
+    @statusGaleon = ""
   end
 
   def services
@@ -13,6 +14,7 @@ class MainController < ApplicationController
     @statusServices = "active"
     @statusCapabilities = ""
     @statusAboutUs = ""
+    @statusGaleon = ""
   end
 
   def capabilities
@@ -20,6 +22,7 @@ class MainController < ApplicationController
   	@statusServices = ""
     @statusCapabilities = "active"
   	@statusAboutUs = ""
+    @statusGaleon = ""
   end
 
   def aboutUs
@@ -27,6 +30,15 @@ class MainController < ApplicationController
   	@statusServices = ""
     @statusCapabilities = ""
   	@statusAboutUs = "active"
+    @statusGaleon = ""
+  end
+
+  def galeon
+    @statusIndex = ""
+    @statusServices = ""
+    @statusCapabilities = ""
+    @statusAboutUs = ""
+    @statusGaleon = "active"
   end
   
 end

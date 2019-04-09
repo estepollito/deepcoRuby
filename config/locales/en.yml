@@ -38,6 +38,7 @@ en:
   services: Services
   capabilities: Capabilities
   aboutUs: About Us
+  galeon: Galeon San Jose ######### Cambiar ########
   language: Language
   language1: English
   language2: Spanish
@@ -54,7 +55,7 @@ en:
   slide2text: Tuning of a remotely operated vehicle (ROV) developed by the Universidad Pontificia Bolivariana
   slide3title: Training
   slide3text: Training directed to a personnel of Ecopetrol
-  whatDeepcoTitle: What is Deepco?
+  whatDeepcoTitle: What is DeepCo?
   whatDeepcoText: Deepco is a Technology-based Company, focused on the development of specialized solutions and capabilitiess, for companies related with water resources and underwater environments.
   whatDeepcoDoesTitle: What we do?
   whatDeepcoDoesText: We seek to ease the processes that involve interaction with water resources and underwater environments for our client segment, generating custom solutions from specific requirements.

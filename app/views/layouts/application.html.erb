@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DeepCo</title>
+    <title>DeepCo Tecnología Subacuática</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <!-- <meta name="description" content="Deepco is a Colombian company focused in the utilization of underwater technology to conserve the marine enviroment"> -->
-    <meta name="description" content="DeepCo es una compañía Colombiana enfocada en la utilización de tecnología subacuática para conservar el entorno marino. DEEPCO S.A.S.">
+    <meta name="description" content="DeepCo es una compañía Colombiana enfocada en la utilización de tecnología subacuática para conservar el entorno marino. DEEPCO S.A.S">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -26,6 +26,13 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item <%= @statusGaleon %> text-center">
+            <%= link_to(main_galeon_path, class:"nav-link") do %>
+              <strong><%= t :galeon %></strong>
+            <% end %>            
+          </li>
+        </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item <%= @statusIndex %> text-center">
             <%= link_to(main_index_path, class:"nav-link") do %>
