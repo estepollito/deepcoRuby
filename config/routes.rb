@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
-  root 'main#index'
+  scope "(:locale)", locale: /en|es/ do
 
-  scope ":locale", locale: /en|es/ do
+  	root 'main#index'
+
   	get 'main/index'
   	get 'main/services'
   	get 'main/capabilities'
