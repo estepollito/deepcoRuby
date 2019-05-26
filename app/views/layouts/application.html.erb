@@ -18,6 +18,7 @@
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-expand-md navbar-light bg-white">
       <div class="navbar-brand" id="logo-img">
+        <%=link_to image_tag("deepco.png", alt: "deepco", class:"img-fluid"), main_index_path if @locale != "es" && @locale != "en" %>
        <%=link_to image_tag("deepco.png", alt: "deepco", class:"img-fluid"), main_index_path if @locale == "es" %>
        <%=link_to image_tag("deepco_en.png", alt: "deepco", class:"img-fluid"), main_index_path if @locale == "en" %> 
       </div>
@@ -54,13 +55,13 @@
               <%= t :aboutUs %>
             <% end %>  
           </li>
-          <li class="nav-item dropdown text-center">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <%= t :language %> </a>
+          <ul class="nav-item dropdown text-center">
+            <li class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <%= t :language %> </li>
             <div id="navbarDropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item text-center" href="?locale=en"><%= t :language1 %></a>
-              <a class="dropdown-item text-center" href="?locale=es"><%= t :language2 %></a>
+              <li class="dropdown-item text-center"> <%= link_to (t :language1), locale: :en %></li>
+              <li class="dropdown-item text-center"> <%= link_to (t :language2), locale: :es %></li>
             </div>  
-          </li>
+          </ul>
         </ul>
       </div>
     </nav>
