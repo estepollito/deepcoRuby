@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   	root 'main#index'
 
+    resources :translations
+
   	get 'main/index'
   	get 'main/services'
   	get 'main/capabilities'
