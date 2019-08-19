@@ -230,6 +230,7 @@ DEPENDENCIES
   jquery-rails
   loofah (>= 2.2.3)
   mail_form
+  nokogiri (>= 1.10.4)
   pg
   puma (~> 3.11)
   rails (~> 5.2.1)
