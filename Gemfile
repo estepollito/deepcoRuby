@@ -31,6 +31,7 @@ gem 'execjs'
 gem 'bootstrap'
 gem 'jquery-rails'
 gem 'mail_form'
+gem 'sendgrid-ruby'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
