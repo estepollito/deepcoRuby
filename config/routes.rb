@@ -1,12 +1,16 @@
 Rails.application.routes.draw do
 
+  resources :contacts, only: [:new, :create]
+
   scope "(:locale)", locale: /en|es/ do
 
   	root 'main#index'
 
   	get 'main/index'
   	get 'main/services'
+  	get 'main/developments'
   	get 'main/capabilities'
+    get 'contact/new'
   	get 'main/aboutUs'
   	get 'main/galeon'
   end

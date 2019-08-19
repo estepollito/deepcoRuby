@@ -1,32 +1,32 @@
-	<div id="imageAboutUs" class="container">
+	<div id="imageAboutUs" class="container margin">
       <%= image_tag("aboutUs/deepco_1", alt: "deepco", class:"img-fluid") if @locale == "es" %>
       <%= image_tag("aboutUs/deepco_2", alt: "deepco", class:"img-fluid") if @locale == "en" %>
       
   </div>
     
-    <div class="container margin">
+    <div class="container margin3">
       <h1 class="deepColor text-center"><%= t :misionTitle %></h1>
       <p class="textSection text-justify"><%= t :misionText %></p>
     </div>
 
-    <div class="container margin">
+    <div class="container margin3">
       <h1 class="deepColor text-center"><%= t :visionTitle %></h1>
       <p class="textSection text-justify"><%= t :visionText %></p>
     </div>
 
-    <div class="container margin">
+    <div class="container margin3">
       <h1 class="deepColor text-center"><%= t :valueTitle %></h1>
       <p class="textSection text-justify"><%= t :valueText %></p>
     </div>
 
     <!-- DeepCo TEAM -->
-    <h2 class="margin text-center deepColor"><%= t :ourTeamTitle %></h2>
+    <h2 class="margin3 text-center deepColor"><%= t :ourTeamTitle %></h2>
     <div class="container text-center text-md-left margin">
 
       <div class="row">
 
         <div class="col-md-2">
-          <%=image_tag("aboutUs/us/deepco_SAS.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
+          <%= link_to(image_tag("aboutUs/us/deepco_SAS.jpg", :alt => "deepco", class:"img-fluid center deepPhotos"), "https://www.linkedin.com/in/sergio-suarez-809771a8", target: "_blank") %>
         </div>
 
         <div class="col-md-4">
@@ -34,6 +34,36 @@
           <h5><%= t :member1Qualification %></h5>
           <p class="justify"><%= t :member1Description %></p>
         </div>
+
+        <div class="col-md-2">
+          <%=image_tag("aboutUs/us/deepco_CVC.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
+        </div>
+
+        <div class="col-md-4">
+          <h4><%= t :member5Name %></h4>
+          <h5><%= t :member5Qualification %></h5>
+          <p class="justify"><%= t :member5Description %></p>
+        </div>
+
+        <div class="col-md-2 marginAboutUs">
+          <%=image_tag("aboutUs/us/deepco_CDM.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
+        </div>
+
+        <div class="col-md-4 marginAboutUs">
+          <h4><%= t :member8Name %></h4>
+          <h5><%= t :member8Qualification %></h5>
+          <p class="justify"><%= t :member8Description %></p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Asesores -->
+    <h2 class="margin text-center deepColor">Asesores</h2>
+    <div class="container text-center text-md-left margin">
+
+      <div class="row">
 
         <div class="col-md-2">
           <%=image_tag("aboutUs/us/deepco_DCH.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
@@ -45,76 +75,44 @@
           <p class="justify"><%= t :member2Description %></p>
         </div>
 
-      </div>
-
-      <div class="row marginAboutUs">
-
-        <div class="col-md-2 marginAboutUs">
-          <%=image_tag("aboutUs/us/deepco_EPV.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
+        <!-- <div class="col-md-2">
+          <%=image_tag("aboutUs/us/deepco_ABG.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
         </div>
 
-        <div class="col-md-4 marginAboutUs">
+        <div class="col-md-4">
+          <h4><%= t :member6Name %></h4>
+          <h5><%= t :member6Qualification %></h5>
+          <p class="justify"><%= t :member6Description %></p>
+        </div> -->
+
+        <div class="col-md-2">
+          <%= link_to(image_tag("aboutUs/us/deepco_EPV.jpg", :alt => "deepco", class:"img-fluid center deepPhotos"), "https://www.linkedin.com/in/estebanpalaciove/", target: "_blank") %>
+        </div>
+
+        <div class="col-md-4">
           <h4><%= t :member3Name %></h4>
           <h5><%= t :member3Qualification %></h5>
           <p class="justify"><%= t :member3Description %></p>
         </div>
 
-        <div class="col-md-2 marginAboutUs">
-          <%=image_tag("aboutUs/us/deepco_LMA.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
-        </div>
-
-        <div class="col-md-4 marginAboutUs">
-          <h4><%= t :member4Name %></h4>
-          <h5><%= t :member4Qualification %></h5>
-          <p class="justify"><%= t :member4Description %></p>
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-2 marginAboutUs">
-          <%=image_tag("aboutUs/us/deepco_CVC.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
-        </div>
-
-        <div class="col-md-4 marginAboutUs">
-          <h4><%= t :member5Name %></h4>
-          <h5><%= t :member5Qualification %></h5>
-          <p class="justify"><%= t :member5Description %></p>
-        </div>
-
-        <div class="col-md-2 marginAboutUs">
-          <%=image_tag("aboutUs/us/deepco_ABG.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
-        </div>
-
-        <div class="col-md-4 marginAboutUs">
-          <h4><%= t :member6Name %></h4>
-          <h5><%= t :member6Qualification %></h5>
-          <p class="justify"><%= t :member6Description %></p>
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-2 marginAboutUs">
+        <div class="col-md-2">
           <%=image_tag("aboutUs/us/deepco_YV.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
         </div>
 
-        <div class="col-md-4 marginAboutUs">
+        <div class="col-md-4">
           <h4><%= t :member7Name %></h4>
           <h5><%= t :member7Qualification %></h5>
           <p class="justify"><%= t :member7Description %></p>
         </div>
 
-        <div class="col-md-2 marginAboutUs">
-          <%=image_tag("aboutUs/us/deepco_CDM.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
+        <div class="col-md-2">
+          <%=image_tag("aboutUs/us/deepco_LMA.jpg", alt: "deepco", class:"img-fluid center deepPhotos")%>
         </div>
 
-        <div class="col-md-4 marginAboutUs">
-          <h4><%= t :member8Name %></h4>
-          <h5><%= t :member8Qualification %></h5>
-          <p class="justify"><%= t :member8Description %></p>
+        <div class="col-md-4">
+          <h4><%= t :member4Name %></h4>
+          <h5><%= t :member4Qualification %></h5>
+          <p class="justify"><%= t :member4Description %></p>
         </div>
 
       </div>

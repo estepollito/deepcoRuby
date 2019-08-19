@@ -6,6 +6,7 @@ class MainController < ApplicationController
   	@statusServices = ""
     @statusCapabilities = ""
   	@statusAboutUs = ""
+    @statusNew = ""
     @statusGaleon = ""
   end
 
@@ -14,6 +15,7 @@ class MainController < ApplicationController
     @statusServices = "active"
     @statusCapabilities = ""
     @statusAboutUs = ""
+    @statusNew = ""
     @statusGaleon = ""
   end
 
@@ -22,6 +24,7 @@ class MainController < ApplicationController
   	@statusServices = ""
     @statusCapabilities = "active"
   	@statusAboutUs = ""
+    @statusNew = ""
     @statusGaleon = ""
   end
 
@@ -30,6 +33,7 @@ class MainController < ApplicationController
   	@statusServices = ""
     @statusCapabilities = ""
   	@statusAboutUs = "active"
+    @statusNew = ""
     @statusGaleon = ""
   end
 
@@ -38,6 +42,7 @@ class MainController < ApplicationController
     @statusServices = ""
     @statusCapabilities = ""
     @statusAboutUs = ""
+    @statusNew = ""
     @statusGaleon = "active"
   end
   

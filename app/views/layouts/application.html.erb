@@ -40,11 +40,13 @@
               <%= t :index %>
             <% end %>            
           </li>
-          <li class="nav-item <%= @statusServices %> text-center">
-            <%= link_to(main_services_path, class:"nav-link") do %>
-              <%= t :services %>
-            <% end %>   
-          </li>
+          <ul class="nav-item <%= @statusServices%> dropdown text-center">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <%= t :services %> </a>
+            <div id="navbarDropdown" class="dropdown-menu border-0 text-center" aria-labelledby="navbarDropdown">
+              <div><%= link_to (t :services1), main_services_path %></div>
+              <div><%= link_to (t :developments), main_developments_path %></div>
+            </div>  
+          </ul>
           <li class="nav-item <%= @statusCapabilities %> text-center">
             <%= link_to(main_capabilities_path, class:"nav-link") do %>
               <%= t :capabilities %>
@@ -55,11 +57,16 @@
               <%= t :aboutUs %>
             <% end %>  
           </li>
+          <li class="nav-item <%= @statusContact %> text-center">
+            <%= link_to(contact_new_path, class:"nav-link") do %>
+              <%= t :contact %>
+            <% end %>  
+          </li>
           <ul class="nav-item dropdown text-center">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <%= t :language %> </a>
             <div id="navbarDropdown" class="dropdown-menu border-0 text-center" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item"> <%= link_to (t :language1), locale: :en %></a>
-              <a class="dropdown-item"> <%= link_to (t :language2), locale: :es %></a>
+              <div><%= link_to (t :language1), locale: :en %></div> 
+              <div><%= link_to (t :language2), locale: :es %></div>
             </div>  
           </ul>
         </ul>
@@ -106,7 +113,12 @@
                 </li>
                 <li>
                   <%= link_to(main_services_path) do %>
-                    <%= t :services %>
+                    <%= t :services1 %>
+                  <% end %>
+                </li>
+                <li>
+                  <%= link_to(main_services_path) do %>
+                    <%= t :developments %>
                   <% end %>
                 </li>
                 <li>

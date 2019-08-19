@@ -35,8 +35,11 @@ es:
 
   # Navbar
   index: Inicio
-  services: Servicios
-  capabilities: Capacidades
+  services: Lineas de negocio
+  services1: Servicios
+  developments: Desarrollos
+  capabilities: Nuestra experiencia
+  contact: Contacto
   aboutUs: Acerca de nosotros
   galeon: DETALLES TECNOLÓGICOS DEL TESORO SUMERGIDO
   language: Idioma
@@ -56,7 +59,7 @@ es:
   slide2text: Puesta a punto de un vehículo operado remotamente (ROV) desarrollado por la Universidad Pontificia Bolivariana
   slide3title: Capacitación
   slide3text: Capacitación dirigida al personal de Ecopetrol, realizada en las instalaciones de la Universidad Pontificia Bolivariana
-  whatDeepcoTitle: ¿Qué es DeepCo?
+  whatDeepcoTitle: En DeepCo desarrollamos robótica y tecnología para entornos subacuáticos, proporcionando soluciones rentables y sostenibles para organizaciones que trabajan con cuerpos de agua marinos y terrestres
   whatDeepcoText: Deepco es una empresa de base tecnológica enfocada en el desarrollo de soluciones especializadas, y en la prestación de servicios para el recurso hídrico y el entorno subacuático.
   whatDeepcoDoesTitle: ¿Qué hacemos?
   whatDeepcoDoesText: Desarrollamos soluciones especializadas y prestamos servicios a las organizaciones que tienen interacción con los recursos hídricos y entornos subacuáticos.
@@ -116,7 +119,7 @@ es:
 
   member1Name: Sergio A. Suárez Vélez, M.Sc.
   member1Qualification: Ingeniero Mecánico
-  member1Description: Diseño e integración de sistemas mecánicos y procesamiento de polímeros.
+  member1Description: CEO. Ing. Mecánico Experiencia  en proyectos de diseño de ingeniería. Diseño de dispositivos de toma de muestras para ROV.
 
   member2Name: Diana C. Hernández Jaramillo, M.Sc.
   member2Qualification: Ingeniera Aeronáutica
@@ -132,7 +135,7 @@ es:
 
   member5Name: Cindy V. Carmona Cadavid, M.Sc.
   member5Qualification: Ingeniera de Control
-  member5Description: Diseño e integración de infraestructuras de comunicación y diseño de estrategias de control.
+  member5Description: CFO. Ing. Control. Experiencia en proyectos de investigación aplicada en control y automatización. Diseño de infraestructura de comunicación para ROV.
 
   member6Name: Andrea Builes Gómez, M.Sc.
   member6Qualification: Ingeniera Mecánica
@@ -144,6 +147,6 @@ es:
 
   member8Name: Cristian D. Martínez Posada, M.Sc.
   member8Qualification: Ingeniero Electrónico
-  member8Description: Sistemas de adquisición, instrumentación IoT.
+  member8Description: CTO. Ing. Electrónico. Experiencia en Desarrollo de sistemas embebidos y dispositivos IoT. Diseño de infraestructura de integración de sensores para ROV.
 
 

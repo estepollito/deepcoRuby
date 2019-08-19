@@ -1,0 +1,36 @@
+<div class="container margin justify">  
+  <h1 class="deepColor">En DeepCo queremos escucharte, ¿cuéntanos tus necesidades?</h1>
+</div>
+
+<div class="container containerContacto margin2">
+
+    <%= form_for @contact do |f| %>
+    <% if flash[:error].present? %>
+        <p> flash[:error]</p>
+    <% end %>
+    <%= f.label :Nombre %> <br>
+    <%= f.text_field :name, required: true %>
+
+    <br>
+    <%= f.label :email %> <br>
+    <%= f.text_field :email, required: true %>
+
+    <br>
+    <%= f.label :Mensaje %> <br>
+    <%= f.text_area :message, as: :text %>
+
+    <div class="hide">
+        <%= f.label :nickname %> <br>
+        <%= f.text_field :nickname, hint: 'leave this field blank' %>
+    </div>
+    
+
+    
+    <%= f.submit 'Enviar mensaje', class: "button deepColorButton" %>
+    
+    
+    <% end %>
+
+</div>
+
+
