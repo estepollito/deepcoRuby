@@ -96,7 +96,7 @@ Rails.application.configure do
   # FOR MAIL
 
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { host: 'deepco.com.co' }
+  config.action_mailer.default_url_options = { host: 'www.deepco.com.co' }
 
 end
 
