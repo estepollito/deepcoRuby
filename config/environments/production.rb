@@ -95,18 +95,8 @@ Rails.application.configure do
 
   # FOR MAIL
 
-  config.action_mailer.default_url_options = { host: 'https://deepco-app.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
-
-  ActionMailer::Base.smtp_settings = {
-  :user_name => ENV['esteban.palaciove@gmail.com'],
-  :password => ENV['Esteban1992xd'],
-  :domain => 'heroku.com',
-  :address => 'smtp.sendgrid.net',
-  :port => 587,
-  :authentication => :plain,
-  :enable_starttls_auto => true
-  }
+  config.action_mailer.default_url_options = { host: 'deepco.com.co' }
 
 end
 
