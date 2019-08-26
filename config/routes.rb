@@ -4,13 +4,11 @@ Rails.application.routes.draw do
 
   	root 'main#index'
 
-    resources :contacts, only: [:new, :create]
-
   	get 'main/index'
   	get 'main/services'
   	get 'main/developments'
   	get 'main/capabilities'
-    get 'contact/new'
+    get 'main/contact'
   	get 'main/aboutUs'
   	get 'main/galeon'
   end
