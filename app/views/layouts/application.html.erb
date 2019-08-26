@@ -40,7 +40,7 @@
               <%= t :index %>
             <% end %>            
           </li>
-          <ul class="nav-item <%= @statusServices%> dropdown text-center">
+          <ul class="nav-item <%= @statusServices%> <%= @statusDevelopments%> dropdown text-center">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <%= t :services %> </a>
             <div id="navbarDropdown" class="dropdown-menu border-0 text-center" aria-labelledby="navbarDropdown">
               <div><%= link_to (t :services1), main_services_path %></div>

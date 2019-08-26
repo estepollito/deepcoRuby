@@ -51,6 +51,7 @@ es:
   mailUsTitle: Escríbenos
   copyright: " Todos los derechos reservados."
 
+
   # ----------Pagina Index----------
 
   slide1title: Multiplexor MacArtney NEXUS MK VI 
@@ -70,6 +71,7 @@ es:
   capabilities3: Consultoría y capacitación
   supportedBy: "Apoyan:"
 
+
   # ----------Page Services----------
 
   services1title: Mantenimiento preventivo de tecnología subacuática
@@ -84,7 +86,26 @@ es:
   services1methodology3: Etapa 3. Documentación para la trazabilidad
   services1methodology3text: En la etapa de documentación se genera un informe detallado sobre el estado dispositivo antes y despues de la intervención, se generan recomendaciones sobre su uso y se registra la información con el fin de mantener la trazabilidad del estado del dispositivo.
 
+  servicesTitle1: Consultoria
+  servicesTitle2: Inspección
+  servicesText: Mediante el uso de “drones submarinos” (mini-ROVs), DeepCo realiza análisis visual reduciendo costos y tiempos muertos en inspecciones rutinarias de infraestructura sumergida. 
+  servicesSolutions: "Algunas de las soluciones que ofrecemos son:"
+  servicesSolutions1: Integración de sensores para adquisición de información.
+  servicesSolutions2: Desarrollo de aplicaciones para georreferenciación de variables físicas e imágenes. 
+  servicesSolutions3: Inspección de estructuras sumergidas de granjas acuicolas, transporte marítimo y gestión del agua potable.
+
+  developmentsTitle1: Desarrollos
+  developmentsTitle2: Aplicaciones de nuestros desarrollos
+  developmentsTitle21: Sistema de estabilización para cámaras
+  developmentsTitleText21: Dispositivo de estabilización para captura de imágenes usadas para realizar fotomosaicos en zonas de restauración coralina (Imagen de referencia del Scripps Institution of Oceanography, UC San Diego). 
+  developmentsTitle22: Vehículo autónomo de superficie
+  developmentsTitleText22: Plataforma multipropósito para investigación y recolección de elementos sólidos en superficie.
+  developmentsTitle23: Sistema de alerta para buzos.
+  developmentsTitleText23: Sistema que incrementa la seguridad durante actividades de buceo.
+
+
   # ----------Page Capabilities----------
+
   capabilities1Text1: Poseemos amplia experiencia en el desarrollo de sistemas subacuáticos. Integramos tanto dispositivos desarrollados por nuestro equipo, como tecnología disponible en el mercado, para crear soluciones acordes con las necesidades de nuestro segmento.
   capabilities1Text2: "Algunas de las soluciones que ofrecemos son:"
   capabilities1Ulist1: Reducción de costos asociados a los tiempos necesarios para obtener soporte técnico para tecnología importada.
@@ -105,7 +126,19 @@ es:
   capabilities3Ulist2: Identificación y selección de dispositivos adecuados para la intervención de procesos en recursos hídricos.
   capabilities3Ulist3: Capacitación en operación y mantenimiento de tecnologías para exploración subacuática.
   capabilities3Ulist4: Puesta a punto de sistemas de exploración subacuática.
+
+  advisorTitle: Asesores
+  experienceTitle: Empresas que han contado con nosotros
+  experienceText11: Capacitación y Puesta a punto de Vehículo Operado Remotamente ROV.
+  experienceText12: Capacitación en el diseño y desarrollo de tecnología subacuática.
+  experienceText13: Diseño e implementación de un sistema acústico para incrementar la seguridad durante las inmersiones de buceo.
+  experienceTitle2: Otras relaciones comerciales
+  experienceText21: Desarrollo de un sistema de estabilización para cámaras.
+  experienceText21: Desarrollo de un sistema de estabilización para cámaras.
+  experienceText22: Diseño y fabricación de un Vehículo autónomo de superficie.
+  experienceText23: Sustitutos de importación para cables subacuáticos.
   
+
   # ----------Page About Us----------
 
   misionTitle: Misión
@@ -150,3 +183,10 @@ es:
   member8Description: CTO. Ing. Electrónico. Experiencia en Desarrollo de sistemas embebidos y dispositivos IoT. Diseño de infraestructura de integración de sensores para ROV.
 
 
+  # ----------Page Contact----------
+
+  contactTitle: En DeepCo queremos escucharte, ¿cuéntanos tus necesidades?
+  contactText1: Escribenos a nuestro correo
+  deepcoMail: sergio.suarez@deepco.com.co 
+  contactText2: Tambien puedes encontrarnos en el numero
+  deepcoPhone: +57 301 592 8018
