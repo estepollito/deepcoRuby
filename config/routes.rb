@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   	get 'main/capabilities'
     get 'main/contact'
   	get 'main/aboutUs'
-  	<!-- get 'main/galeon' -->
+  	# get 'main/galeon'
   end
   
 
